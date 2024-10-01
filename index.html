@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Guitar School</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar" class="header-icons" data-aos="fade-down" data-aos-delay="400">
+            <div class="logo">
+                <h1>Guitar <span>School</span></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobrenos" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="#professores" class="nav-link">Professores</a></li>
+                    <li class="nav-item"><a href="#aulas" class="nav-link">Aulas</a></li>
+                </ul>
+            </div>
+            <div class="contato-button">
+                <button><a href="https://api.whatsapp.com/send/?phone=5511953818319&text=Olá!%20Eu%20gostaria%20de%20receber%20informações%20sobre%20aulas!" target="_blank">Contato</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+              <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#sobrenos" class="nav-link">Sobre nós</a></li>
+              <li class="nav-item"><a href="#professores" class="nav-link">Professores</a></li>
+              <li class="nav-item"><a href="#aulas" class="nav-link">Aulas</a></li>
+            </ul>
+            <div class="contato-button">
+                <button><a href="https://api.whatsapp.com/send/?phone=5511953818319&text=Olá!%20Eu%20gostaria%20de%20receber%20informações%20sobre%20aulas!" target="_blank">Contato</a></button>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <div class="main-content" class="header-icons" data-aos="fade-right" data-aos-delay="400">
+            <h2>A melhor escola de música de São Paulo!</h2>
+            <p>Venha aprender com os melhores professores do Brasil.</p>
+            <p>Aulas online ou presenciais.</p>
+        </div>
+        <div class="agendar-button" class="header-icons" data-aos="fade-left" data-aos-delay="400">
+            <button class="btn"><a href="https://api.whatsapp.com/send/?phone=5511953818319&text=Olá!%20Quero%20agendar%20uma%20aula%20grátis!" target="_blank">Agendar Aula Grátis</a></button>
+        </div>
+        <div class="redes-sociais" class="header-icons" data-aos="fade-up" data-aos-delay="400">
+            <ul class="wrapper">
+              <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <svg
+                  viewBox="0 0 320 512"
+                  height="1.2em"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <svg
+                  height="1.8em"
+                  fill="currentColor"
+                  viewBox="0 0 48 48"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="twitter"
+                >
+                  <path
+                    d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+                  ></path>
+                </svg>
+              </li>
+              <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1.2em"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+               
+        </div>
+    </main>
+    <section class="secao-sobrenos" id="sobrenos">
+      <div class="container-texto" data-aos="fade-right" data-aos-delay="200">
+          <h2>Sobre nós</h2>
+          <p>Nossa principal preocupação é fornecer um ensino de qualidade, em um ambiente agradável e confortável. 
+            Para isso desenvolvemos as aulas visando atender as necessidades particulares de cada aluno, tornando-as 
+            muito mais proveitosas. Trabalhamos com aulas teóricas e práticas levando em conta as preferências musicais 
+            do aluno, o que torna a didática muito mais agradável e fácil de ser assimilada. Nossos cursos de Instrumentos
+             Musicais são voltados à todas as idades, tanto para iniciantes quanto para avançado. Aqui na Escola a sua 
+             Aula de música pode ser on line, presencial ou domiciliar, Caso seu Filho tenha entre 3 à 6 anos , indicamos
+              a modalidade de Musicalização Infantil.</p>
+      </div>
+      <div class="container-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/Aula-de-Guitarra_06-1024x683.jpg" alt="">
+      </div>
+    </section>
+    <section class="secao-professores" id="professores">
+      <h2 class="titulo-professores" data-aos="fade-down" data-aos-delay="200">Professores</h2>
+      <div class="container-cards" data-aos="fade-up" data-aos-delay="200">
+        <div class="card card-1">
+          <h3>Ana Silva</h3>
+        </div>
+        <div class="card card-2">
+          <h3>João Rodrigues</h3>
+        </div>
+        <div class="card card-3">
+          <h3>José Silva</h3>
+        </div>
+      </div>
+    </section>
+    <section class="secao-aulas" id="aulas">
+      <h2 class="titulo-aulas" >Aulas</h2>
+      <div class="container-cards-aulas" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-aulas aulas-1">
+            <p class="card-p">Violão</p>
+            <div class="card-countent">
+                <p>
+                  Curso Livre, onde o aluno escolhe junto com o professor o melhor estilo e repertório a ser 
+                  desenvolvido: rock, pop-rock, bossa-nova, samba, mpb, entr outros.
+                  A teoria e prática no curso de violão,será aplicada em conjunto, no decorrer do aproveitamento do aluno.  
+                </p>
+                <h4>Preço</h4>
+                <p>R$250,00 (mensal)</p>
+            </div>
+        </div>
+        <div class="card-aulas aulas-2">
+          <p class="card-p">Guitarra</p>
+          <div class="card-countent">
+              <p>
+                Neste curso, o aluno desenvolve leitura de tablaturas, acordes, harmonia, teoria, improvisação, técnicas 
+                para mão direita tais como palhetada alternada, sweep, skiping, tapping e finger picking. Para mão 
+                esquerda digitação, mecânica e articulação. Com as duas mãos, o two hands tapping, técnica mais otimizada
+                 para riffs e solos com as duas mãos.              </p>
+              <h4>Preço</h4>
+              <p>R$250,00 (mensal)</p>
+          </div>
+        </div>
+        <div class="card-aulas aulas-3">
+          <p class="card-p">Baixo</p>
+          <div class="card-countent">
+              <p>
+                Neste curso, o aluno desenvolve técnicas de Slap, Pizzicato, leitura de partitura e tablatura, músicas de 
+                ouvido, harmonia e improvisação. Curso livre, onde o aluno pode escolher o estilo musical a ser tocado 
+                juntamente com o professor.
+              </p>
+              <h4>Preço</h4>
+              <p>R$250,00 (mensal)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <p>Copyright 2024 | Guitar School - Todos direitos reservados.</p>
+    </footer>
+    <a 
+    href="https://api.whatsapp.com/send/?phone=5511953818319&text=Olá!%20Eu%20gostaria%20de%20receber%20informações%20sobre%20aulas!"
+    class="btn-whatsapp"
+    target="_blank">
+        <img src="assets/whatssapp.svg" alt="Botao Whatsapp">
+        <span class="tooltip-text">Agendar aula</span>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
